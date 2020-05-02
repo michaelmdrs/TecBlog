@@ -1,0 +1,108 @@
+/* Limpar formatações padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  background: #E6E6E6;
+}
+
+#navegacao {
+  background: #FFF;
+  border-bottom: 2px solid #d8d8d8;
+  height: 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#area {
+  width: 720px;
+  margin: 0 auto;
+}
+
+#area-principal {
+  width: 720px;
+  margin: 55px auto 10px auto;
+}
+
+#logo {
+  float: left;
+}
+
+#menu {
+  float: right;
+  padding: 10px 0;
+}
+
+#postagem {
+  background: #FFF;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#rodape {
+  background: #b9c941;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+#rodape p {
+  text-align: center;
+}
+
+/********************* Formatação do Menu *********************/
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+a:link {
+  color: #838383;
+}
+a:visited {
+  color: #424242;
+}
+a:hover {
+  color: #ffffff;
+  background: #b9c941
+}
+a:active {
+
+}
+
+/* Classes */
+
+.verde {
+  color: #b9c941;
+}
+
+.titulo-postagem {
+  color: #b9c941;
+}
+
+.data-postagem {
+  font-size: 12px;
+  border-bottom: 1px solid #838383;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.img-postagem {
+  float: left;
+  margin: 0 10px 0 5px;
+}
+
+.texto-postagem {
+  text-align: justify;
+}
+
+.postado {
+  border-left: 5px solid #838383;
+  padding-left: 10px;
+  display: block;
+  margin-top: 10px;
+}
